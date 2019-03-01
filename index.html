@@ -1,13 +1,32 @@
-<span>
+<span id="ko">
+helllo
+</span>
+<span id="kop">
 helllo
 </span>
 
+
 <style>
-span:after
+span#ko:after
 {
         content: '\25BE';
     display: inline-block;
     margin-left: 5px;
     font-size: 20px;
     }
+
+span#kop:after {
+    content: '';
+    margin-left: 9px;
+    font-size: 20px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #000;
+    position: relative;
+    bottom: -18px;
+}
+
+
 </style>
